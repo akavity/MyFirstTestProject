@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MainTest">
+
+    <test name="MainTest" parallel="false">
+        <classes>
+            <class name="TwoBntuTest">
+                <methods>
+                    <include name="checkRegistrationFromDataBntu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
